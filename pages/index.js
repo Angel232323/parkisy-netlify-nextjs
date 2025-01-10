@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Parkisy</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="¡Algo increíble está en camino!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+        Estamos desarrollando una plataforma revolucionaria que cambiará la forma en que interactúas con tu entorno urbano.
         </p>
       </main>
 
