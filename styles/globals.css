@@ -1,10 +1,10 @@
 html,
 body {
-  background-color: #f8fafc;
+  background: linear-gradient(135deg, #001f3d, #00aaff); /* Gradiente elegante */
+  color: white; /* Color de texto blanco */
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Helvetica Neue', sans-serif; /* Tipografía moderna */
 }
 
 * {
@@ -18,10 +18,12 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 code {
   background: #e2e8f0;
+  color: #001f3d; /* Color de texto oscuro para resaltar el código */
   border-radius: 5px;
   padding: 0.75rem;
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
@@ -33,4 +35,33 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+h1, p {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: white;
+}
+
+button {
+  background-color: #00aaff; /* Azul celeste */
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0099cc; /* Efecto hover */
+}
+
+.container {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
